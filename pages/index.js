@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Banner from '../Components/Banner/Banner';
 import HomeLayout from '../Components/Layout/HomeLayout';
-import Styles from '../styles/Home.module.css'
+import Project from '../Components/Projects/Project';
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
+      <Project />
     </HomeLayout>
   )
 }
