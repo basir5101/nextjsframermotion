@@ -8,11 +8,28 @@
   position: relative;
 }
 
+.contact a{
+  position: absolute;
+  bottom: 20px;
+  right: 100px;
+  color: white;
+  font-size: 30px;
+  border: 1px solid rgb(75, 146, 139);
+  padding: 0px 20px 5px 20px;
+}
+
 .banner h4{
   position: absolute;
   top: 20px;
   left: 20px;
 }
+.banner h3{
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  color: rgb(75, 146, 9);
+}
+
 
 .banner button{
   background: linear-gradient(45deg, rgb(44, 63, 60), rgb(39, 15, 71));
@@ -21,8 +38,11 @@
   font-weight: bold;
   width: 40vw;
   padding: 10px 0px;
+  transition: all 0.3s
 }
-
+.banner button:hover{
+  background:rgb(39, 15, 71)
+}
 .projects{
   min-height: 100vh;
   background: linear-gradient(45deg, rgb(44, 63, 60), rgb(39, 15, 71), rgb(44, 63, 60), rgb(39, 15, 71));
