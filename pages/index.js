@@ -1,7 +1,10 @@
 import Head from 'next/head'
+import AboutMe from '../Components/AboutME/AboutMe';
 import Banner from '../Components/Banner/Banner';
+import ContactForm from '../Components/ContactForm/ContactForm';
 import HomeLayout from '../Components/Layout/HomeLayout';
 import Project from '../Components/Projects/Project';
+import Skills from '../Components/Skills/Skills';
 
 export default function Home() {
   return (
@@ -12,7 +15,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
-      <Project />
+      <AboutMe />
+      <Skills />
+      <ContactForm />
     </HomeLayout>
   )
 }
